@@ -1,0 +1,23 @@
+
+
+Graph Operations
+
+Graph Traversal
+    BFS
+    DFS
+
+Graph Types
+    Undirected :
+    Directed : Edge contains from and to
+    Weighted : Edge has weight
+
+
+Graph Representation
+    Adj List
+    Several Ways to represent adj list
+    1)
+        It can be list of list of int
+        index of outer list is the nodeId and its corresponding value is the list containing all reachable nodes from that one.
+    2)
+        Map<integer, List<edge>>
+        integer is the node id, and list of edge are the edges reachable from that node
