@@ -1,13 +1,10 @@
 package com.machinecoding;
 
-import lombok.Getter;
-
 import java.util.LinkedList;
 import java.util.Queue;
 
 public class KProduct {
     private final int K;
-    @Getter
     private Integer product = null;
     private Integer runningProduct = null;
     private Queue<Integer> queue = new LinkedList<>();
